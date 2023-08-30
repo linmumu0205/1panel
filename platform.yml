@@ -1,0 +1,22 @@
+name: 1Panel
+category: custom
+type: WebCloud
+comment: "{{ '1Panel' | trans }}"
+protocols:
+  - name: 1Panel
+    port: 443
+    primary: true
+
+i18n:
+  1Panel:
+    zh: 1Panel运维管理面板
+    ja: 1パネルO&M管理パネル
+  Account ID:
+    zh: 账号ID
+    ja: アカウント ID
+  International:
+    zh: 国际
+    ja: こくさい
+  Whether to use the international login page:
+    zh: 是否使用国际登录界面
+    ja: 国際ログイン画面を使いますか

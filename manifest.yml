@@ -1,0 +1,22 @@
+name: 1Panel
+display_name: "{{ '1Panel' | trans }}"
+version: 0.1.0
+comment: "{{ '1Panel server operation and maintenance management panel' | trans }}"
+author: mumu
+exec_type: python
+update_policy: always
+type: web
+tags:
+  - web
+protocols:
+  - 1Panel
+
+i18n:
+  1Panel:
+    en: 1Panel O&M management panel
+    zh: 1Panel 运维管理面板
+    ja: 1パネルO&M管理パネル
+  1Panel server operation and maintenance management panel:
+    en: 1Panel server operation and maintenance management panel
+    zh: 1Panel 服务器运维管理面板
+    ja: 1パネルサーバ運用保守管理パネル
